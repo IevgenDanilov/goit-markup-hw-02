@@ -50,11 +50,11 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* .button.secondary {
-    color: var(--accent-color);
-    background-color: var(--primary-white-color);
-    font-family: inherit;
-    } */
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
 
 /* Шапка сайта */
 .page-header {
@@ -90,6 +90,14 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* .site-nav .link:active {
+  color: tomato;
+} */
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -163,21 +171,20 @@ body {
 /* Сотрудники */
 .employees {
   background-color: var(--special-background-color);
-}
-
-.employees-item {
-  /* background-color: var(--primary-white-color) */
-  /* width: 270px;
-  height: 368px; */
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
   text-align: center;
 }
 
+.employees-item h3 {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
 .employees-item p {
-  font-weight: 400;
   color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 /* Проекты в портфолио */
