@@ -38,8 +38,8 @@ body {
 }
 
 .button.primary {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+  background-color: var(--special-background-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -52,8 +52,8 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
-  background-color: var(--primary-white-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* Шапка сайта */
