@@ -50,8 +50,8 @@ body {
   letter-spacing: 0.06em;
 }
 
-.button:hover,
-.button:focus {
+.button.primary:hover,
+.button.primary:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
